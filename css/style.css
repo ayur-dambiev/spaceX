@@ -153,6 +153,9 @@ body{
   }
 }
 @media (max-width: 768px) {
+  .rocket {
+    max-width: 190px;
+  }
   .header {
     flex-direction: column;
     align-items: center;
@@ -170,6 +173,9 @@ body{
   .video {
     width: 100%;
   }
+  .footer-text {
+    width: 100px;
+  }
 }
 @media (max-width: 576px) {
   .rocket {
@@ -179,6 +185,11 @@ body{
   .table {
     margin-bottom: 0;
   }
+  .table-column {
+    font-size: 14px;
+    width: 200px;
+  }
   .video {
     width: 100%;
+}
 }
